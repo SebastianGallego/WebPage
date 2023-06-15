@@ -14,6 +14,12 @@ nav {
     background-color: #FF8000;
 }
   
+
+hr {
+margin: 0 20px;
+border-right: 2px solid #000;
+
+}
    
 .logoNav {
    width: 150px;
@@ -89,8 +95,6 @@ nav {
   color: #e0c7ae;
   text-align: center;
   font-size: 24px
-
-
 }
 
 
@@ -104,7 +108,6 @@ nav {
   }
   
   .card:hover {
-    
     box-shadow: 0 0 10px 5px rgba(255, 128, 0, 0.7);
   }
 
@@ -167,4 +170,49 @@ nav {
   .icon {
     width: 50px;
     margin: 20px;
+  }
+
+
+  .formularioContacto {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+  }
+
+  .divFormulario {
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .etiquetas {
+    color: #FF8000;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .textFormulario {
+    background-color: #e0c7ae ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+  }
+
+  #mensaje {
+    width: 400px; 
+    height: 400px;
+  
+  }
+
+  #btnEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px
+    width: 400px; 
+    height: 50px;
+    margin-top: 20px;
+    
   }
