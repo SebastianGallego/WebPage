@@ -75,7 +75,7 @@ border-right: 2px solid #000;
 
 
 .banner{
-  margin-top: 20px;  
+  margin-top: 60px;  
   background-image: url("https://media-cdn.mclaren.com/media/images/articles/hero/Abu_Dhabi_livery_2022_Hero_shot_1600x620.jpg");
   width: 1400px;
   height: 520px;
@@ -87,14 +87,16 @@ border-right: 2px solid #000;
 
 
 .seccionSecundaria{
-  margin-top: 30px; 
+  margin-top: 60px; 
 }
 
 .subtitulo {
-  margin: 40px;
+  margin: 60px;
   color: #e0c7ae;
   text-align: center;
-  font-size: 24px
+  font-size: 24px;
+  line-height: 2;
+
 }
 
 
