@@ -103,11 +103,9 @@ nav {
        
   }
   
-  .containerCards:hover {
-
-
-
+  .card:hover {
     
+    box-shadow: 0 0 10px 5px rgba(255, 128, 0, 0.7);
   }
 
 
@@ -119,6 +117,7 @@ nav {
     background-color: #47c7fc;
     border-radius: 10px;
     padding: 12px;
+    transition: box-shadow 0.3s;
   }
   
   .card img {
