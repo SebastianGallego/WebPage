@@ -88,4 +88,15 @@
       font-size: 18px;
       color: #666;
     }
-  
+
+
+    .seccionVideo {
+        margin: 100px 0 100px 0;
+    }
+    
+    .containerVideo {
+        display: flex;
+        Justify-content: space-around;
+        
+
+    }
