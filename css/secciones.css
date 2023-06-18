@@ -1,0 +1,91 @@
+.seccionPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .tituloWeb {
+    color: #FF8000;
+    text-align: center;
+    font-size: 50px
+    
+  }
+  
+  
+  .banner{
+    margin-top: 60px;  
+    background-image: url("https://media-cdn.mclaren.com/media/images/articles/hero/Abu_Dhabi_livery_2022_Hero_shot_1600x620.jpg");
+    width: 1400px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+  }
+  
+  
+  .seccionSecundaria{
+    margin-top: 60px; 
+  }
+  
+  .subtitulo {
+    margin: 60px;
+    color: #e0c7ae;
+    text-align: center;
+    font-size: 24px;
+    line-height: 2;
+  
+  }
+  
+  
+  
+  /* Tarjetas */
+    .containerCards {
+      margin-top: 60px;
+      margin-bottom: 60px;
+      display: flex;
+      Justify-content: space-around;
+         
+    }
+    
+    .card:hover {
+      box-shadow: 0 0 10px 5px rgba(255, 128, 0, 0.7);
+    }
+  
+  
+    .card {
+      display: flex;
+      
+      flex-direction: column;
+      align-items: center;
+      background-color: #47c7fc;
+      border-radius: 10px;
+      padding: 12px;
+      transition: box-shadow 0.3s;
+    }
+    
+    .card img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .card-content {
+      text-align: center;
+    }
+    
+    .card-content h2 {
+      font-family: 'Work Sans';
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .card-content p {
+      font-family: 'Work Sans';
+      font-size: 18px;
+      color: #666;
+    }
+  

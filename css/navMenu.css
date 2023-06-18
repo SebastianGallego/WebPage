@@ -1,0 +1,45 @@
+
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #FF8000;
+}
+  
+  
+.logoNav {
+   height: 100px;
+}
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+  }
+  
+
+.menu li {
+    margin-right: 40px;
+  }
+
+
+.menu li a:hover {
+    color: #47c7fc;
+  }
+  
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition:  0.5s ease;
+    font-family: 'Work Sans';
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+.logoMenu{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
