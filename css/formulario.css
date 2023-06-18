@@ -41,3 +41,27 @@
     margin-top: 20px;
     
   }
+  .imagenMapa {
+    width: 100px; 
+    
+  }
+
+.containerMapa{
+  margin: 150px ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  .textoDireccion{
+
+    color: #FF8000;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  .containerDireccion {
+    text-align: center;
+
+  }
