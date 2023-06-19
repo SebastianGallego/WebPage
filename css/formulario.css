@@ -35,12 +35,13 @@
 
   #btnEnviar {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px
+    font-size: 28px;
     width: 400px; 
     height: 50px;
     margin-top: 20px;
     
   }
+
   .imagenMapa {
     width: 100px; 
     
@@ -65,3 +66,43 @@
     text-align: center;
 
   }
+
+
+
+
+
+
+/* Estilos aplicados para pantallas con un ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+
+
+  .containerMapa {
+    Flex-direction: column;
+    justify-content: center;
+  }  
+  
+  .logoMapa {
+    margin-bottom: 15px;
+
+  }
+
+  .textoDireccion {
+    margin-bottom: 15px;
+  }
+
+  .mapaGoogle {
+    width: 450px;
+
+  }
+
+  
+  iframe {
+
+    width: 450px;
+  }  
+
+
+  }
+
+
+

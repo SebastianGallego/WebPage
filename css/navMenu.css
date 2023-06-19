@@ -66,11 +66,17 @@ nav {
 
     .menu li {
       margin-right: 0;
-      margin-bottom: 6px;
+      margin-bottom: 5px;
     }
 
+    .logoNav {
+      height: 150px;
+     }
     
+     .separador {
+      visibility: hidden;
 
+     }
     }
     
    

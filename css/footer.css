@@ -19,3 +19,22 @@
 
 
 
+/* Estilos aplicados para pantallas con un ancho máximo de 768px */
+    @media screen and (max-width: 768px) {
+
+
+    .footerRedes {
+      display: flex;
+      Flex-direction: column;
+    }
+    
+    .copy {
+      font-size: 15px;
+      margin: 10px;
+
+    }
+    
+    
+    }
+
+
