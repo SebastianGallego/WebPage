@@ -72,8 +72,8 @@
 
 
 
-/* Estilos aplicados para pantallas con un ancho máximo de 768px */
-@media screen and (max-width: 768px) {
+/* Estilos aplicados para pantallas con un ancho máximo de 480px */
+@media screen and (max-width: 480px) {
 
 
   .containerMapa {
