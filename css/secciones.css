@@ -111,13 +111,10 @@
     }
 
     /* Estilos aplicados para pantallas con un ancho máximo de 768px */
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 460px) {
       iframe {
       width: 440px;
     }
-
-   
-
 
     .containerCards {
       flex-direction: column;
@@ -125,16 +122,32 @@
 
     }
 
-
-
     .card {
       padding: 6px;
       transition: box-shadow 0.3s;
       width: 100%;
       margin-bottom: 5%;
+    }
+
+    .banner{ 
+    width: 480px;
+    height: 178px;
+    padding: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    .tituloWeb {
+      font-size: 1.5rem;
       
     }
 
+    .subtitulo {
+      margin: 3%;
+      font-size: 1rem;
+      line-height: 1;
+      
+    }
 
 
     }
