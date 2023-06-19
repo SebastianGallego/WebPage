@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    
   }
   
   .tituloWeb {
@@ -12,7 +12,11 @@
     
   }
   
-  
+  h1{
+    text-shadow: 2px 2px 4px rgba(247, 244, 218, 0.5);
+
+  }
+
   .banner{
     margin-top: 4%;  
     background-image: url("https://media-cdn.mclaren.com/media/images/articles/hero/Abu_Dhabi_livery_2022_Hero_shot_1600x620.jpg");
@@ -110,7 +114,80 @@
 
     }
 
-    /* Estilos aplicados para pantallas con un ancho máximo de 768px */
+    iframe {
+      width: 1024px;
+    }
+
+
+    /* Estilos aplicados para pantallas con un ancho máximo de 1400px */
+  @media screen and (max-width: 1400px) {
+  
+    .banner{ 
+      width: 950px;
+      height: 360px;
+      padding: 1%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
+
+  /* Estilos aplicados para pantallas con un ancho máximo de 960px */
+  @media screen and (max-width: 960px) {
+   
+    .banner{ 
+      width: 800px;
+      height: 320px;
+      padding: 1%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+    iframe {
+      width: 640px;
+    }
+
+  }
+
+/* Estilos aplicados para pantallas con un ancho máximo de 800px */
+@media screen and (max-width: 800px) {
+   
+  .banner{ 
+    width: 500px;
+    height: 250px;
+    padding: 1%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .tituloWeb {
+    font-size: 2rem;
+    
+  }
+
+  .subtitulo {
+    margin: 3%;
+    font-size: 1rem;
+    line-height: 1;
+    
+  }
+
+  .containerCards {
+    flex-direction: column;
+    padding: 5%;
+
+  }
+  
+  .card {
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+}
+
+
+
+    /* Estilos aplicados para pantallas con un ancho máximo de 460px */
     @media screen and (max-width: 460px) {
       iframe {
       width: 440px;
@@ -124,17 +201,16 @@
 
     .card {
       padding: 6px;
-      transition: box-shadow 0.3s;
       width: 100%;
       margin-bottom: 5%;
     }
 
     .banner{ 
-    width: 480px;
-    height: 178px;
-    padding: 1%;
-    background-size: cover;
-    background-repeat: no-repeat;
+      width: 450px;
+      height: 178px;
+      padding: 1%;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .tituloWeb {
