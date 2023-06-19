@@ -8,13 +8,13 @@
   .tituloWeb {
     color: #FF8000;
     text-align: center;
-    font-size: 50px
+    font-size: 3rem;
     
   }
   
   
   .banner{
-    margin-top: 60px;  
+    margin-top: 4%;  
     background-image: url("https://media-cdn.mclaren.com/media/images/articles/hero/Abu_Dhabi_livery_2022_Hero_shot_1600x620.jpg");
     width: 1400px;
     height: 520px;
@@ -46,6 +46,7 @@
       margin-bottom: 60px;
       display: flex;
       Justify-content: space-around;
+      
          
     }
     
@@ -106,5 +107,34 @@
         color: #FF8000;
         text-align: center;
         font-size: 30px
+
+    }
+
+    /* Estilos aplicados para pantallas con un ancho máximo de 768px */
+    @media screen and (max-width: 480px) {
+      iframe {
+      width: 440px;
+    }
+
+   
+
+
+    .containerCards {
+      flex-direction: column;
+      padding: 5%;
+
+    }
+
+
+
+    .card {
+      padding: 6px;
+      transition: box-shadow 0.3s;
+      width: 100%;
+      margin-bottom: 5%;
+      
+    }
+
+
 
     }
